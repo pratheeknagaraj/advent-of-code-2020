@@ -15,7 +15,6 @@ for line in passwords:
     string = parts[2]
 
     letter_count = string.count(letter)
-    #print(min_count, max_count, letter, string, letter_count)
     if min_count <= letter_count <= max_count:
         valid_count += 1
 
