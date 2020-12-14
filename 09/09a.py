@@ -43,7 +43,7 @@ while pointer < len(nums):
             table[i][1].append(new_val)
             sum_cache[new_val] = sum_cache.get(new_val, 0) + 1
         table.append((cur,[]))
-    
+
     pointer += 1
     #print(pointer, table, sum_cache)
 

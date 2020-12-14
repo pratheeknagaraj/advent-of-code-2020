@@ -10,7 +10,7 @@ def mod_mult_inv(a, n):
     newt = 1
     r = n
     newr = a
-    
+
     while newr != 0:
         q = r // newr
         t, newt = newt, t - q * newt
@@ -25,7 +25,7 @@ def mod_mult_inv(a, n):
 
 def solve(bus_times):
     # bus times are relatively co-prime, use Chinese Remainder Theorem
-    
+
     total = 0
 
     ids = [i[0] for i in bus_times]

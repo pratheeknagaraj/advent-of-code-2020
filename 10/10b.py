@@ -22,7 +22,7 @@ def recurse(num):
         new = num + i
         if new in nums_set:
             total += recurse(new)
-    
+
     cache[num] = total
     return total
 

@@ -25,7 +25,7 @@ def run(lines):
         inst, num = cur.split()
 
         #print(cur, accumulator)
-        
+
         if inst == 'nop':
             line_num += 1
         elif inst == 'acc':

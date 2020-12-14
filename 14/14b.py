@@ -19,7 +19,7 @@ def apply_mask(mask, val):
         if elem == '0':
             pass
         elif elem == '1':
-            new[i] = '1' 
+            new[i] = '1'
         elif elem == 'X':
             new[i] = 'X'
     return new
@@ -37,7 +37,7 @@ def get_matches(masked):
             nums = [n + bit_val for n in nums]
         elif elem == 'X':
             nums = nums + [n + bit_val for n in nums]
-    
+
         if len(nums) >= MAX_SIZE:
             print("Too many addresses, exiting")
             sys.exit(1)
