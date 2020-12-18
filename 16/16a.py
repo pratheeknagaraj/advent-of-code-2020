@@ -15,7 +15,7 @@ for l in ranges:
     ranges = l.split(':')[1].strip()
     parts = ranges.split()
     front, back = parts[0], parts[2]
-    
+
     f_i, f_j = front.split('-')
     b_i, b_j = back.split('-')
     f_i, f_j = int(f_i), int(f_j)

@@ -38,7 +38,7 @@ for i in range(n):
 
 def sim(grid):
     new_grid = copy.deepcopy(grid)
-    
+
     dirs = [(i,j,k,l) for i in range(-1,2) for j in range(-1,2) for k in range(-1,2) for l in range(-1,2)]
     dirs.remove((0,0,0,0))
 

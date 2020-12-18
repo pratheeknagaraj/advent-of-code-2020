@@ -16,14 +16,14 @@ for l in ranges:
     field, ranges = l.split(':')
     parts = ranges.strip().split()
     front, back = parts[0], parts[2]
-    
+
     f_i, f_j = front.split('-')
     b_i, b_j = back.split('-')
     f_i, f_j = int(f_i), int(f_j)
     b_i, b_j = int(b_i), int(b_j)
 
     allowed_nums = set(range(f_i, f_j+1)).union(set(range(b_i, b_j+1)))
-    
+
     valid_nums.update(set(range(f_i, f_j+1)))
     valid_nums.update(set(range(b_i, b_j+1)))
 
