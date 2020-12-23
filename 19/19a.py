@@ -45,7 +45,7 @@ for r in rule_lines:
 def recurse(v):
     if v in cache:
         return cache[v]
-    #print(v) 
+    #print(v)
     allowed = []
     for p in rules[v]:
         new = []

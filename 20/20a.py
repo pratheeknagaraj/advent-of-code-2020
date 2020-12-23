@@ -31,7 +31,7 @@ class Tile:
         self.tile_id = tile_id
         self.tile_data = tile_data
         self.dim = dim
-        
+
         self.edge()
 
     def edge(self):
@@ -41,7 +41,7 @@ class Tile:
         right = ''.join(i[self.dim-1] for i in self.tile_data)
 
         self.edge = (top, right, bottom, left)
-        
+
         self.gen_edges()
 
     def gen_edges(self):
