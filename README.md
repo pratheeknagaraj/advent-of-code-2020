@@ -17,6 +17,12 @@ Each day is listed in a independent subdirectory. Each subdirectory is listed as
  - `*_input` contains the personalized input to be solved for in parts **a** and **b**
  - `*_out` contains the solutions for parts **a** and **b**
 
+## Completion
+
+Here's an image showing my completion of ***Advent of Code 2020***.
+
+![Advent of Code 2020 Completion](advent_of_code_2020_completion.png)
+
 ## License
 
 See the [LICENSE file](LICENSE) in the same directory.
